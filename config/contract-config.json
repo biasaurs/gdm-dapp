@@ -1,0 +1,27 @@
+{
+  "contractName": "Lucky Dollar Metaverse",
+  "nftName": "Lucky Dollar Metaverse",
+  "nftSymbol": "GDM",
+  "maxSupply": "1000000",
+  "saleType": {
+    "allowlistSale": { "mintPrice": "0.0007", "maxMintAmountPerTx": "100" },
+    "publicSale": { "mintPrice": "0.0007", "maxMintAmountPerTx": "100" }
+  },
+  "contractAddresses": {
+    "1337": [],
+    "4": [],
+    "1": ["0x52aFfcF57540907b9A80614554403DE61319f8D7"]
+  },
+  "customErrors": {
+    "MyNftCollection__InvalidMintAmount": "Invalid mint amount!",
+    "MyNftCollection__MaxSupplyExceeded": "Max supply exceeded!",
+    "MyNftCollection__InsufficientFunds": "Insufficient funds!",
+    "MyNftCollection__AllowlistSaleClosed": "Allowlist sale closed!",
+    "MyNftCollection__AddressAlreadyClaimed": "Address already claimed!",
+    "MyNftCollection__InvalidProof": "Invalid proof!",
+    "MyNftCollection__PublicSaleClosed": "Public sale closed!",
+    "MyNftCollection__TransferFailed": "Transfer failed!",
+    "MyNftCollection__NonexistentToken": "Nonexistent token!"
+  },
+  "gasToken": "ETH"
+}
